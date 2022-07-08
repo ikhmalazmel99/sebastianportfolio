@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style_for_finalizing.css">
+
+    <head>
+    <body>
+        <nav class="Navigation_Bar">
+            <div class="maxWidth">
+                <div class="logo"><a href ="#">Portfolio</a></div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <!-- Home page/section -->
+        <section class="home" id="home">
+            <div class="maxWidth">
+                <div class="home_page">
+                    <div class="img_1"><img src="C:\Users\user\Pictures\me_updated.jpg"></div>
+                    <br/>
+                    <div class="text_1">Hello, my name is Chai Wern Yong Sebastian<br/></div>
+                    <div class="text_2">An undergraduate of <span>HELP University</span></div>
+                    <br/>
+                    <div class="button_1"><a href="#contact"><button>Contact me</button></a></div>
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+            </div>
+        </section>
+
+        <!-- About page/section -->
+        <section class="about" id="about">
+            <div class="maxWidth">
+                <div class="about_page">
+                <div class="text_3">About me<br/></div>
+                                <div class="text_4">Hello, my name is Chai Wern Yong Sebastian, 
+                                    an undergraduate diploma student of HELP University, 
+                                    and an intern at KidoCode Sdn Bhd.<br/><br/>
+                                    During my time as a diploma student at HELP University, 
+                                    I have learned to use many programming languages and computing applications.
+                                    The programming languages and computing applications I have learned include 
+                                    C, python, HTML, java, MIT app inventor and Visual Studio Code.<br/>
+                                </div>
+                </div>
+            </div>                   
+        </section>
+
+        <!-- Skills page/section -->
+        <section class="skills" id="skills">
+            <div class="maxWidth">
+                <div class="skills_page">
+                <div class="text_3">Skills<br/></div>
+                <div class="skill-items">
+                    <div class="Top">
+                        <div class="text_5">
+                            <strong>Coding and Web design</strong> 
+                        </div>
+                        <p>C, python, HTML, CSS, JavaScript.</p>
+                    </div>
+                    <div class="Mid">
+                        <div class="text_5">
+                            <strong>Software development</strong>
+                        </div>
+                        <p>Knowledge on coding languages, database, and data structures.</p>
+                    </div>
+                    <div class="Bot">
+                        <div class="text_5">
+                            <strong>Teaching and tutoring</strong>
+                        </div>
+                        <p>Learned to tutor children coding, electronics and using MIT App Inventor.</p>
+                    </div>
+                </div>
+                                
+                </div>
+            </div>                   
+        </section>
+
+        <!-- Contact page/section -->
+        <section class="contact" id="contact">
+            <nav class="Navigation_Bar_2">
+                <div class="maxWidth">
+                    <div class="logo">Contact here</div>
+                    <ul class="contacts">
+                        <li>Phone number: 010-922-1838</li>
+                        <br/>
+                        <li>Email: sebchia3@gmail.com</li>
+                        <br/>
+                        <li>Facebook page: <a href=https://www.facebook.com/seb.chia.14>Click me</a></li>
+                        <br/>
+                        <li>Twitter page: <a href=https://twitter.com/SebastianChia15>Click me</a></li>
+                        <br/>
+                        <li>GitHub page: <a href=https://github.com/SebChia>Click me</a></li>
+                        <br/>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+    <body>
+</html>
