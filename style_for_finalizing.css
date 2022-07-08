@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.div{
+    clear:both;
+    text-align: left;
+}
+
+.maxWidth{
+    max-width: 1600;
+    padding: 5 25;
+    margin: auto;
+}
+
+/* Navigation_Bar styling */
+.Navigation_Bar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(51, 51, 255);
+    font-family: Helvetica, sans-serif;
+}
+
+.Navigation_Bar .maxWidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navigation_Bar .logo a{
+    color: white;
+    font-size: 40;
+    font-weight: 600;
+}
+
+.Navigation_Bar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Navigation_Bar .menu li a{
+    color: white;
+    font-size: 18;
+    font-weight: 200;
+    margin: 20;
+}
+
+/* Home page/section styling */
+.home{
+    display:flex;
+    color: black;
+    min-height: 600;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(102, 170, 255);
+}
+
+.home .maxWidth{
+    margin: auto 560 auto 560;
+}
+
+.img_1 img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    border-color: rgb(200, 240, 240);
+    border-width: 3;
+    border-style: solid;
+    border-radius: 7%;
+    margin-left: 20%;
+    margin-top: 50%;
+}
+
+.text_1{
+    text-align: center;
+}
+
+.text_2{
+    text-align: center;
+}
+
+.text_2 span{
+    font-weight: bold;
+    font-size:larger;
+}
+
+.button_1{
+    text-align: center;
+}
+
+.button_1 button{
+    font-size:large;
+    font-weight:bold;
+    background-color: rgb(85, 170, 255);
+    padding: 20;
+    border-radius: 25%;
+    border-color: rgb(170, 170, 255);
+}
+
+/* About page/section styling */
+.about{
+    display:flex;
+    color: black;
+    max-height: 700;
+    padding-top: 125;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(102, 170, 255);
+}
+
+.about .maxWidth{
+    max-width: 1200;
+    margin-right: 30%;
+    margin-bottom: 25%;
+}
+
+.text_3{
+    text-align: left;
+    font-size:40;
+    font-weight:bold;
+    color:white;
+    text-decoration: underline aliceblue;
+    margin-top: 9%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+}
+
+.text_4{
+    padding: 3%;
+    margin-left: 20%;
+    text-align: left;
+    font-size:20;
+    border-color: rgb(0, 151, 252);
+    border-width: 5;
+    border-style: solid;
+    border-radius: 15%;
+    background-color: aliceblue;
+}
+
+/* Skills page/section styling */
+.skills{
+    display:flex;
+    color: black;
+    min-height: 750;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 10%;
+    background-color: rgb(102, 170, 255);
+}
+
+.skills .maxWidth{
+    max-width: 100%;
+    margin-right: 30%;
+    margin-bottom: 25%;
+}
+
+.skills .skill-items .Top{
+    position: relative;
+    margin-right: 25%;
+    border-style: solid;
+    padding: 20;
+    border-color: aqua;
+    background-color: aliceblue;
+}
+
+.skills .skill-items .Mid{
+    position:relative;
+    margin-right: 25%;
+    border-style: solid;
+    padding: 20;
+    border-color: aqua;
+    background-color: aliceblue;
+}
+
+.skills .skill-items .Bot{
+    position:relative;
+    margin-right: 25%;
+    border-style: solid;
+    padding: 20;
+    border-color: aqua;
+    background-color: aliceblue;
+}
+
+
+
+/* Contact page/section styling */
+.Navigation_Bar_2{
+    position:absolute;
+    width: 100%;
+    background-color: rgb(51, 51, 255);
+    padding:12%;
+    font-family: Helvetica, sans-serif;
+}
+
+.Navigation_Bar_2 .maxWidth{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Navigation_Bar_2 .logo{
+    color: white;
+    font-size: 40;
+    font-weight: 600;
+    margin-top: 12%;
+    margin-left: 200;
+}
+
+.Navigation_Bar_2 .contacts li{
+    list-style:none;
+    display: inline-block;
+    color: white;
+    font-size: 20;
+    font-weight: 300;
+    margin: 20 200 20 0;
+}
+
+.Navigation_Bar_2 .contacts li a:visited{
+    list-style:none;
+    display: inline-block;
+    color: rgb(0, 255, 255);
+    font-size: 20;
+    font-weight: 300;
+    margin: 20;
+}
